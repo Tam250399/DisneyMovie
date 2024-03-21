@@ -1,23 +1,23 @@
 const genere = [
     {
         "id": 28,
-        "name": "Action"
+        "name": "PHIM HÀNH ĐỘNG"
     },
     {
         "id": 12,
-        "name": "Adventure"
+        "name": "PHIM PHƯU LƯU"
     },
     {
         "id": 16,
-        "name": "Animation"
+        "name": "PHIM HOẠT HÌNH"
     },
     {
         "id": 35,
-        "name": "Comedy"
+        "name": "PHIM HÀI"
     },
     {
         "id": 80,
-        "name": "Crime"
+        "name": "PHIM HÀNH ĐỘNG"
     },
     {
         "id": 99,

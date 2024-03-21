@@ -3,6 +3,7 @@ import logo from './../assets/Images/logo.png'
 import { HiHome, HiMagnifyingGlass, HiStar, HiPlayCircle, HiTv } from "react-icons/hi2"
 import { HiPlus, HiDotsVertical } from "react-icons/hi"
 import HeaderItems from './HeaderItems'
+import avartar from "./../assets/Images/avartar.png"
 function Header() {
 
     const [toggle, setToggle] = useState();
@@ -61,8 +62,10 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"
-                className='w-[40px] rounded-full' />
+            {/* <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"
+                className='w-[40px] rounded-full' /> */}
+            <img src={avartar} className='w-[60px] rounded-full cursor-pointer  ease-in duration-150 hover:border-gray-400 hover:scale-110' />
+
         </div>
 
     )
