@@ -8,30 +8,30 @@ function Header() {
     const [toggle, setToggle] = useState();
     const menu = [
         {
-            name: 'HOME',
+            name: 'TRANG CHỦ',
             icon: HiHome
         },
         {
-            name: 'SEARCH',
+            name: 'TÌM KIẾM',
             icon: HiMagnifyingGlass
         },
         {
-            name: 'WATCH LIST',
+            name: 'DANH SÁCH',
             icon: HiPlus
         }
         ,
         {
-            name: 'ORIGINELS',
+            name: 'TOP PHIM',
             icon: HiStar
         }
         ,
         {
-            name: 'MOVIES',
+            name: 'THỂ LOẠI',
             icon: HiPlayCircle
         }
         ,
         {
-            name: 'SERIES',
+            name: 'QUỐC GIA ',
             icon: HiTv
         }
     ]
